@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "r1Ns9t5WlzqbcocpVmdysjFkCZtNHlkuqRzuMNK9RaS20dGZS5EYakgXvD1WiYrg4As8pA+vEgS17n5f0Ta2Zw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\asber\\source\\repos\\SignalRExample_2\\SignalR_Common\\SignalR_Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asber\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\asber\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

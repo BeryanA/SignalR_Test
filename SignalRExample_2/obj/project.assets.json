@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "SignalR_Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/SignalR_Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SignalR_Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SignalR_Common/1.0.0": {
+      "type": "project",
+      "path": "../SignalR_Common/SignalR_Common.csproj",
+      "msbuildProject": "../SignalR_Common/SignalR_Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "SignalR_Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\asber\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\asber\\source\\repos\\SignalRExample_2\\SignalRExample_2\\SignalR_Server.csproj",
+      "projectName": "SignalR_Server",
+      "projectPath": "C:\\Users\\asber\\source\\repos\\SignalRExample_2\\SignalRExample_2\\SignalR_Server.csproj",
+      "packagesPath": "C:\\Users\\asber\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\asber\\source\\repos\\SignalRExample_2\\SignalRExample_2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\asber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\asber\\source\\repos\\SignalRExample_2\\SignalR_Common\\SignalR_Common.csproj": {
+              "projectPath": "C:\\Users\\asber\\source\\repos\\SignalRExample_2\\SignalR_Common\\SignalR_Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
